@@ -51,7 +51,7 @@ module.exports.run = async function ({ api, event }) {
     minute: "2-digit"
   });
 
-  const botPicUrl = "https://graph.facebook.com/100067185640846/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662";
+  const botPicUrl = "https://graph.facebook.com/100064694536556/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662";
   const botPicPath = path.join(__dirname, "cache", "joinGif", "bot_join.jpg");
 
   const driveImageUrl = "https://drive.google.com/uc?export=download&id=1UsliCw3v-qR8V6_fqpuYbPplRKGXIiq8";
