@@ -67,12 +67,12 @@ module.exports.run = async function ({ api, event, args }) {
 
   msg += `👤 𝐎𝐰𝐧𝐞𝐫: 𝐌𝐃 𝐒𝐔𝐌𝐎𝐍 𝐈𝐒𝐋𝐀𝐌\n`;
   msg += `📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/8801975257710\n`;
-  msg += `🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: facebook.com/100064694536556\n`;
+  msg += `🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: facebook.com/61578385164515\n`;
   msg += `⚙️ 𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}\n`;
   msg += `📦 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 2.1.0\n`;
   msg += `📊 𝐓𝐨𝐭𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${commandList.size}\n`;
 
-  const ownerUID = "100064694536556";
+  const ownerUID = "61578385164515";
   const avatarURL = `https://graph.facebook.com/${ownerUID}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
   const path = __dirname + `/cache/help_owner.jpg`;
 
